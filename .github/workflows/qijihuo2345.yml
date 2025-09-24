@@ -3,7 +3,7 @@ name: qijihuo2345
 on:
   workflow_dispatch:
   schedule:
-    - cron: '56 0/6 * * *'
+    - cron: '31 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,12 +12,9 @@ jobs:
       - uses: actions/checkout@v4
       - name: qijihuo2345
         env:
-          zfytg38365: ${{ secrets.zfytg38365 }}
+          wb669: ${{ secrets.wb669 }}
         run: |
-          echo $zfytg38365 | jq -r .eno3 | /bin/bash
-          echo $yyo7500 | jq -r .tzhsc37438 | /bin/bash
-          echo $l9672 | jq -r .jxrgt24 | /bin/bash
-          echo $twkq22 | jq -r .wq1 | /bin/bash
-          echo $khw731 | jq -r .l9381 | /bin/bash
-          echo $gbq3990 | jq -r .maxj166 | /bin/bash
+          echo $wb669 | jq -r .ls64 | /bin/bash
+          echo $vmo31854 | jq -r .ru43026 | /bin/bash
+          echo $a0 | jq -r .kzz5 | /bin/bash
 
